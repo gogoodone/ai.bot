@@ -1,0 +1,7 @@
+strands-agents
+bedrock-agentcore[strands-agents]
+mcp-proxy-for-aws
+boto3
+# NOTE: markitdown is NOT here on purpose — file→markdown conversion is offloaded to the
+# user_files_worker container Lambda (which carries the heavy parsers). The runtime only stages
+# uploads + async-invokes that worker, so it stays lean.

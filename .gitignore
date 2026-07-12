@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# agentcore build cache (regenerated on every `agentcore launch`)
+.bedrock_agentcore/
+
+# local env
+.env
+
+# kept private - hard-won OAuth callback implementation
+oauth_callback_lambda/
+
+# kept private - IAM policy documents reveal infra structure
+iam/
+
+# kept private - deployment config reveals infra structure
+.bedrock_agentcore.yaml
