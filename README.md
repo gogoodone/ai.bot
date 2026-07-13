@@ -1,4 +1,4 @@
-# cleavis.eu — Security Diagrams
+# ai.bot — Security Diagrams
 
 Diagram-first view. Headline: **does the LLM have direct access to resources? No.** The model only emits
 text or a tool request; trusted code (or an isolated sandbox) performs every access. (ASCII-only so the
